@@ -330,7 +330,7 @@ a picture > img {
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: #e5e5e5;
+  background-color: #c2c2c2;
 }
 
 .page__menu .menu__list {
@@ -571,15 +571,15 @@ a picture > img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 @media (min-width: 744px) {
   .contacts__content-wrapper {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    gap: 80px;
+    gap: 250px;
   }
 }
 
