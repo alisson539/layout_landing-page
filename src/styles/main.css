@@ -155,10 +155,6 @@ a picture > img {
   transition: all 0.2s ease-in-out;
 }
 
-a picture > img {
-  transform: scale(1.1);
-}
-
 .bike-card,
 .details__img-wrapper > a {
   display: block;
@@ -462,7 +458,7 @@ a picture > img {
 }
 
 .compare .bike-card__img:hover {
-  transform: scale(1.05); /* zoom in slightly */
+  transform: scale(1.1); /* zoom in slightly */
 }
 
 .compare .bike-card__title {
@@ -531,7 +527,11 @@ a picture > img {
   object-fit: cover;
   display: block;
   border-radius: 6px;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.details__card .details__img:hover {
+  transform: scale(1.1); /* zoom in slightly */
 }
 
 @media (max-width: 768px) {
