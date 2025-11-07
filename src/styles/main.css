@@ -458,7 +458,11 @@ a picture > img {
 .compare .bike-card__img {
   width: 100%;
   margin-bottom: 1.5rem;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out; /* smooth transition */
+}
+
+.compare .bike-card__img:hover {
+  transform: scale(1.05); /* zoom in slightly */
 }
 
 .compare .bike-card__title {
